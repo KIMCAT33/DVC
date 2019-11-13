@@ -101,6 +101,7 @@ Windows를 사용 중이라면, [Windows에서 DVC 사용하기](https://dvc.org
  <code> $ git add .gitignore model.h5.dvc data.dvc metrics.csv</code>  
  <code> $ git commit -m "Second model, trained with 2000 images"</code>  
  <code> $ git tag -a "v2.0" -m "model v2.0, 2000 image"</code>  
+ 
 ![v2](./image/v2.PNG) 
 
 <code> dvc checkout </code> 명령어로 <code> git checkout</code> 와 유사한 방식으로 커밋된 버전의 데이터를 얻을 수 있습니다.  
@@ -113,8 +114,10 @@ Windows를 사용 중이라면, [Windows에서 DVC 사용하기](https://dvc.org
 <code> $ git checkout v1.0 </code>  
 <code> $ dvc checkout </code>  
 ![v1](./image/v1.PNG)
+
 [2] 현재 code의 버전은 유지하고 이전의 데이터 셋만 이용하고 싶을 때  
 <code> $ git checkout v1.0 data.dvc</code>    
 <code> $ dvc checkout data.dvc</code>  
+
 ![v2c](./image/v2c.PNG)
 <code>git status</code> 명령어로 변경 확인사항을 확인 가능하다.
