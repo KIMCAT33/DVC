@@ -1,4 +1,4 @@
-### Tutorial:Versioning
+# Tutorial:Versioning
 DVC 명령어를 통해 다양한 버전의 데이터 셋과 ML models을 작업해보았습니다.
 
 Kaggle의 Dogs vs. Cats 데이터를 사용하였으며, 먼저 레이블된 1000개의 이미지를 사용하여 분류 모델을 훈련시키고, 이미지 개수를 2배로 늘려서 다시 훈련시킬 것입니다.
