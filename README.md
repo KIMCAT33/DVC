@@ -120,4 +120,5 @@ Windows를 사용 중이라면, [Windows에서 DVC 사용하기](https://dvc.org
 <code> $ dvc checkout data.dvc</code>  
 
 ![v2c](./image/v2c.PNG)
+
 <code> git status</code> 명령어로 변경 확인사항을 확인 가능하다.
