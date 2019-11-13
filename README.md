@@ -113,6 +113,7 @@ Windows를 사용 중이라면, [Windows에서 DVC 사용하기](https://dvc.org
 [1] 전체 버전을 바꾸고 싶을 때  
 <code> $ git checkout v1.0 </code>  
 <code> $ dvc checkout </code>  
+
 ![v1](./image/v1.PNG)
 
 [2] 현재 code의 버전은 유지하고 이전의 데이터 셋만 이용하고 싶을 때  
